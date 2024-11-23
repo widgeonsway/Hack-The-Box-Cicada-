@@ -1,9 +1,0 @@
-On Click: 
-
-1. Change title
-2. Change image
-3. Change paragraph
-4. Change list items or remove list
-5. Open and close accordion
-6. Remove all previous items
-7. Update accordion accordingly 
