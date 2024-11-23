@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Timeline to Resolution: Cicada</title>
+  </head>
+  <body>
+    <header id="header">
+      <h1>Timeline to Resolution: Cicada</h1>
+      <p></p>
+    </header>
+    <main>
+      <section id="info">
+        <div class="buttons">
+          <button id="stage1">Introduction</button>
+          <button id="stage2">Scan</button>
+          <button id="stage3">Foothold</button>
+          <button id="stage4">Escalation</button>
+          <button id="stage5">Root</button>
+        </div>
+        <h2 id="title">Introduction</h2>
+
+        <img
+          id="img"
+          src="images/cicada.png"
+          alt="The hack the box cover art for their easy windows boxed called Cicada"
+        />
+        <p id="img_info">
+          Cicada is an easy Windows machine created by Hack The Box.
+          <br />
+          Tools you will need for this machine are:
+        </p>
+        <ul id="list">
+          <li>Hack The Box Account</li>
+          <li>VirtualBox</li>
+          <li>A Kali VM</li>
+        </ul>
+      </section>
+      <div class="accordion">
+        <div class="item">
+          <p class="number">1</p>
+          <p class="text" id="step1">What is Hack The Box?</p>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="icon"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="m19.5 8.25-7.5 7.5-7.5-7.5"
+            />
+          </svg>
+          <div class="hidden-box">
+            <p id="para1">
+              Hack The Box is a cybersecurity platform that focuses on black box
+              penetration testing. You can visit it
+              <a href="https://www.hackthebox.com/" target="_blank">here!</a>
+            </p>
+            <img class="step-img" id="img1" src="" />
+            <p id="para1_1"></p>
+          </div>
+        </div>
+
+        <div class="item">
+          <p class="number">2</p>
+          <p class="text" id="step2">What is VirtualBox?</p>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="icon"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="m19.5 8.25-7.5 7.5-7.5-7.5"
+            />
+          </svg>
+          <div class="hidden-box">
+            <p id="para2">
+              VirtualBox is a type 2 hypervisor which allows you to virtualize
+              an operating system such as the one we will be using in this
+              tutorial, Kali Linux. <br />
+              You can download VirtualBox for your OS
+              <a href="https://www.virtualbox.org/wiki/Downloads">here.</a>
+            </p>
+            <img class="step-img" id="img2" src="" />
+            <p id="para2_2"></p>
+            <img class="step-img" id="img2_2" src="" />
+            <p id="para2_3"></p>
+            <img class="step-img" id="img2_3" src="" />
+          </div>
+        </div>
+
+        <div class="item">
+          <p class="number">3</p>
+          <p class="text" id="step3">How do I get connected?</p>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="icon"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="m19.5 8.25-7.5 7.5-7.5-7.5"
+            />
+          </svg>
+          <div class="hidden-box">
+            <p id="para3">
+              Once you have downloaded VirtualBox and installed a Kali VM:
+            </p>
+            <img class="step-img" id="img3" src="" />
+            <p id="para3_2"></p>
+            <img class="step-img" id="img3_2" src="" />
+            <img class="step-img" id="img3_3" src="" />
+            <p id="para3_3"></p>
+            <p id="para4"></p>
+            <img class="step-img" id="img4" src="" />
+            <ol id="steps">
+              <li>Log in or sign up for a Hack the Box account.</li>
+              <li>Click connect to Hack the Box</li>
+              <li>Click Machines and download your personal openvpn file</li>
+              <li>Start your target machine</li>
+              <li>Connect to your openvpn</li>
+              <li>Happy Hacking 😀</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="scripts.js"></script>
+  </body>
+</html>
