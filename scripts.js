@@ -160,7 +160,7 @@ function stage4Content() {
   para1.innerHTML =
     "By listing emily.oscars privileges you can see that she has SeBackupPrivilege and SeRestorePrivilege.<br> These types of privileges are able to be abused. ";
   para2.innerHTML =
-    "Looking online you can find the a Github that will do what we want. You can find the link ";
+    "Looking online you can find there is a Github that will do what we want. You can find the link ";
   para2.appendChild(githubLink);
   para3.innerHTML = `Upload it to the target machine. If you connected with evil-winrm, you can simply type "upload filename"`;
   img1.src = "images/Picture18.png";
